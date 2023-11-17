@@ -1,0 +1,14 @@
+{
+  "schema": "{
+      \"type\": \"record\",
+      \"namesace\": \"com.mycorp.mynamespace\",
+      \"name\": \"ExpediaKey\",
+      \"fields\": [
+        {
+          \"name\": \"id\",
+          \"type\": \"long\"
+        }
+      ]
+    }",
+  "schemaType": "AVRO"
+}

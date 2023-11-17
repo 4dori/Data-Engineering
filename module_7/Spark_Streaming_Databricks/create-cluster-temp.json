@@ -1,0 +1,25 @@
+{
+    "cluster_name": "module_7",
+    "spark_version": "12.2.x-scala2.12",
+    "spark_conf": {
+      "spark.databricks.delta.preview.enabled": "true",
+      "spark.databricks.cluster.profile": "singleNode",
+      "spark.master": "local[*, 4]"
+    },
+    "azure_attributes": {
+      "first_on_demand": 1,
+      "availability": "ON_DEMAND_AZURE",
+      "spot_bid_max_price": -1.0
+    },
+    "node_type_id": "Standard_DS3_v2",
+    "driver_node_type_id": "Standard_DS3_v2",
+    "custom_tags": {
+      "ResourceClass": "SingleNode"
+    },
+    "spark_env_vars": {
+      "AZURE_ACC_2": "$AZURE_ACC",
+      "AZURE_ACC_KEY_2": "$AZURE_ACC_KEY" 
+    },
+    "autotermination_minutes": 120,
+    "num_workers": 1
+  }
